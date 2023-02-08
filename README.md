@@ -1,4 +1,4 @@
-# ESTACIÓN METEOROLÓGICA
+# AHOTS SYNTESIZER
 
 ![](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/Foto%20estacion%20meteorologica.jpg?raw=true)
 
