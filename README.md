@@ -63,22 +63,22 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 * [Estañua](https://es.rs-online.com/web/p/estano-e-hilo-de-soldar/1047189?cm_mmc=ES-PLA-DS3A-_-google-_-CSS_ES_ES_Herramienta_El%C3%A9ctrica_y_Soldadura_Whoop+(2)-_-(ES:Whoop!)+Esta%C3%B1o+e+Hilo+de+Soldar-_-1047189&matchtype=&pla-305619873070&gclid=Cj0KCQiAu62QBhC7ARIsALXijXTX-TMjnpBkwoCMX4DuGWD5Kg1hb9i8SoM2XOcIjuM4Jp8HE7iA6VYaAvr2EALw_wcB&gclsrc=aw.ds) 
 
 ***
-## MONTAJE DE LA ESTACIÓN METEOROLÓGICA
-Para la creación de esta estación hemos diseñado nuestra **PCB** en la cual habrá que soldar todos los componentes mencionados arriba.
+## AHOTS SINTETIZAGAILUAREN MUNTAIA
+Para la creación de esta estación hemos diseñado nuestra **PCB** en la cual habrá que soldar todos los componentes mencionados arriba. Sintentizagailu hau sortu ahal izateko, **PCB** bat diseinatu degu eta goian aipatu diren komponente guztiak soldatu beharko dira.
 
-tanto los archivos de `Proteus 8`como  `Gerber X` estarán disponibles para descargar. Para el montaje y diseño nos hemos basado en esta imagen en la que se puede ver como están dispuestas las conexiones .
+bai `Proteus 8` bai `Arduino`, fitxategiak deskargatzeko egongo dira. Muntaketa eta diseinurako, irudi honetan oinarritu gara, konexioak nola antolatuta dauden ikus baitaiteke.
 
 >**PROTEUS**
-* [**ESTACION METEOROLOGICA PROGRAMA**](https://github.com/V1c7hor/Estacion-Meteorologica/tree/main/PROTEUS)
+* [**AHOTS SINTETIZAGAILUA PCB**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/PCB-design)
 
->**GERBER X**
-* [**ESTACION METEOROLOGICA GERBER X**](https://github.com/V1c7hor/Estacion-Meteorologica/tree/main/GERBER%20X)
+>**ARDUINO**
+* [**AHOTS SINTETIZAGAILUA PROGRAMA**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/Arduino-code)
 
-![](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/Captura%20meteorologica.JPG?raw=true)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/eskema-orokorra.jpg)
 
-Disposición de los componentes en la **PCB** .
+Komponenteen kokaketa **PCB** diseinuan.
 
-![](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/PROTEUS/PROTEUS%20CONEXIONES.JPG?raw=true)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/pcb-design.PNG?raw=true)
 ***
 Para el recubrimiento de la PCB hemos utilizado una impresora 3D para este proceso, en nuestro caso es la **Artillery Genius** y hemos utilizado estos esquemas de thingiverse para ello:
 
