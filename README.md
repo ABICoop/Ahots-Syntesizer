@@ -74,7 +74,7 @@ bai `Proteus 8` bai `Arduino`, fitxategiak deskargatzeko egongo dira. Muntaketa 
 >**ARDUINO**
 * [**AHOTS SINTETIZAGAILUA PROGRAMA**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/Arduino-code)
 
-![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/eskema-orokorra.jpg)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/eskema-orokorra.jpg)
 
 Komponenteen kokaketa **PCB** diseinuan.
 
@@ -120,20 +120,15 @@ Ahots sintetizadore honetarako software libre bat erabili degu, Arduino deituta.
 * [**Pagina Web**](https://www.arduino.cc/en/software)
 
 Liburutegiak deskargatu ahal izateko hurrengo linkean sartu behar da eta gure ordenagailuaren arabera deskargatuko degu **Teensyduino installer**.
-![](https://tutorialesgeeks.com/wp-content/uploads/2021/06/1624025504_840_Como-descargar-archivos-y-ver-codigo-desde-GitHub.png)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/Teensyduino-installer.png)
 
->**LIBRERIAS**
-* [**ESP32**](https://github.com/espressif/arduino-esp32)
-* [**BME280**](https://github.com/finitespace/BME280)
-* [**Adafruit**](https://github.com/adafruit/Adafruit_SI1145_Library)
-* [**BH1750**](https://github.com/claws/BH1750)
-* [**One Wire**](https://github.com/PaulStoffregen/OneWire)
-* [**Dallas Temperature**](https://github.com/milesburton/Arduino-Temperature-Control-Library)
+>**LIBRERIAK**
+* [**TEENSYDUINO**](https://www.pjrc.com/teensy/td_download.html)
 
-Una vez descargada la librería **`.ZIP`**  abriremos Arduino y nos iremos al apartado de programa , dentro de este seleccionaremos incluir librería y de daremos click en añadir librerías .zip como se puede ver en la imagen de abajo. Se nos abrirá una ventana le daremos a **`este equipo`** y luego a **`descargas`** y seleccionamos nuestro archivo **`.ZIP`** para poder instalarlo . 
+Behin gure bertsioa deskargatuta daukagula, `Teensyduino Installerrak` esaten digun pausuak jarraitu behar dira. Behin pausuak bukatu ditugula horrelako pantaila bat agertu beharko luke.
 
-![](https://programarfacil.com/wp-content/uploads/2018/04/7-2-16.png)
-![](https://programarfacil.com/wp-content/uploads/2018/04/7-2-17.png)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/teensyduino_installer_1.png)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/teensyduino_installer_2.png)
 
 Después de esto faltaría añadir un gestor de tarjetas para esto nos iremos a **`archivo`** y dentro seleccionaremos la opción de **`preferencias`** 
  , también si se prefiere se puede usar el comando **`Ctrl+Coma`**  . Una vez echo esto donde pone gestor de tarjetas añadiremos el enlace **URL** y le daremos al **`ok`** .
