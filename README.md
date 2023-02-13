@@ -129,7 +129,7 @@ Ondoren, txartelen kudeatzaile bat gehitzea falta da. Horretarako, **`archivo`**
  , nahi bada **`Ctrl+Coma`** komandoa erabili ahal da errazago. Behin hori eginda **`gestor de tarjetas`** lekuan gure **`URL`** jarriko degu eta **`ok`** sakatu.
 
 > **TXARTELA KUDEAKETA**
-* [**TEENSYDUINO**](https://www.pjrc.com/teensy/package_teensy_index.json)
+* [**TEENSY TXARTELA**](https://www.pjrc.com/teensy/package_teensy_index.json)
 
 ![](https://www.esploradores.com/wp-content/uploads/2016/09/2-2-1024x496.png)
 
