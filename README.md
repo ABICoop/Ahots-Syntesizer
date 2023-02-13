@@ -5,7 +5,7 @@
 ## Ahots sintetizagailu bat sortzeko jarraitu behar diren pausoak.
 Proiektu honetan ikasiko degu nola sortu ahots eta teklatuz modulatutako ahots sintetizagailu bat. Teensy 3.2 eta Teensy 4.0 hardware-a erabiliz lortuko dugu sintetizagailua martxan jartzea.
 
-Ahots sintetizagailu bat sortzearen ideia etorri zen geundenean pentsatzen lan egiteari buruz. Nola pertsona batzuek lan egiten dute soinuak sortzez eta sintetizadoreekin aldatzeaz. Nori ez inoiz etorri burura DJ modukoa izan nahi zuela? Proiektu honekin zure lehenengo pausuak eman ahal izango dituzu oso kostu gutxian eta errestasun askorekin.
+Ahots sintetizagailu bat sortzearen ideia etorri zen geundenean pentsatzen lan egiteari buruz. Nola pertsona batzuek lan egiten dute soinuak sortzez eta sintetizadoreekin aldatzeaz. Nori ez zaio inoiz etorri burura DJ modukoa izan nahi zuela? Proiektu honekin zure lehenengo pausuak eman ahal izango dituzu musika elektronikaren munduan oso kostu gutxian eta errestasun askorekin.
 
 Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar dira:
 
