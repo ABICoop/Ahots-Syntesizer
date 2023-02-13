@@ -1,6 +1,6 @@
 # AHOTS SYNTESIZER
 
-![](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/Foto%20estacion%20meteorologica.jpg?raw=true)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/portada.png?raw=true)
 
 ## Pasos a seguir para crear una estación meteorológica
 Para este proyecto  vamos a aprender cómo hacer una estación meteorológica inalámbrica alimentada mediante  energía solar , con  el uso de un módulo Wifi ESP32 y algunos sensores  lograremos tener información en tiempo real . 
