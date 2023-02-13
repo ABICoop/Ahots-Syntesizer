@@ -113,13 +113,13 @@ Para la parte superior de la estación pondremos la placa solar en la parte supe
 
 ## ARDUINO PROGRAMA
 
-Para el programar de esta estación meteorológica hemos utilizado un programa de software libre llamado Arduino . Para que el  **`ESP32 Dev Kit V1`**  funcione correctamente vamos a tener que instalar varias librerías.
+Ahots sintetizadore honetarako software libre bat erabili degu, Arduino deituta. **`Teensyduino`** libreriak sartu behar izan diogu Teensy hardwarea funtzionatu ahal izateko.
 
 >**ARDUINO**
 
 * [**Pagina Web**](https://www.arduino.cc/en/software)
 
-Para descargar librerías iremos a los enlaces de abajo y donde pone **CODE** haremos click y descargaremos el archivo **`.ZIP`**
+Liburutegiak deskargatu ahal izateko hurrengo linkean sartu behar da eta gure ordenagailuaren arabera deskargatuko degu **Teensyduino installer**.
 ![](https://tutorialesgeeks.com/wp-content/uploads/2021/06/1624025504_840_Como-descargar-archivos-y-ver-codigo-desde-GitHub.png)
 
 >**LIBRERIAS**
@@ -138,16 +138,16 @@ Una vez descargada la librería **`.ZIP`**  abriremos Arduino y nos iremos al ap
 Después de esto faltaría añadir un gestor de tarjetas para esto nos iremos a **`archivo`** y dentro seleccionaremos la opción de **`preferencias`** 
  , también si se prefiere se puede usar el comando **`Ctrl+Coma`**  . Una vez echo esto donde pone gestor de tarjetas añadiremos el enlace **URL** y le daremos al **`ok`** .
 
-> **GESTOR DE TARJETAS**
-* [**ESP32**](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
+> **TXARTELA KUDEAKETA**
+* [**TEENSYDUINO**](https://www.pjrc.com/teensy/package_teensy_index.json)
 
 ![](https://www.esploradores.com/wp-content/uploads/2016/09/2-2-1024x496.png)
 
 ***
 
-**`Programa de Arduino Estación Meteorológica`** [**Github**](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/Weather_Station_VA.ino)
+**`AHOTS SINTETIZAGAILUA ARDUINO PROGRAMA`** [**Github**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/Arduino-code)
 
-Seguidamente de descargar el programa vamos a **`herramientas`** y nos aseguramos de que la placa es la **`ESP32 Dev Module`**
+Programa deskargatu eta gero komprobatzen degu **`herramientas`** atalean, gure plaka **`Teensy 4.0`** dela.
 ***
 ![](https://www.prometec.net/wp-content/uploads/2018/02/arduino-ide.png)
 
