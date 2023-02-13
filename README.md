@@ -7,7 +7,7 @@ Proiektu honetan ikasiko degu nola sortu ahots eta teklatuz modulatutako ahots s
 
 La ventaja de tener una estación meteorológica es que no necesita  estar conectada a una fuente de corriente constante por lo que ahorraremos mucha energía y además puede establecerse en lugares remotos , otra ventaja que tiene es que podemos comprar estos componentes a un precio reducido con lo cual recortamos muchos gastos y hace que se muy asequible .
 
-Para hacer posible esta estación meteorológica vamos a necesitar los siguientes componentes:
+Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar dira:
 
 ***
 
@@ -44,36 +44,23 @@ Para hacer posible esta estación meteorológica vamos a necesitar los siguiente
 
 > **POTENTZIOAMETROAK**
 
-* **0.1 uF**  x2
-* **1 uF**  x2
-* **100 uF**  x1
-* **100 uF**  x1
+* **10 KΩ**  x2
+* **10 KΩ**  x2
+* **10 KΩ**  x2
+* **10 KΩ**  x2
 
 ***
 
-> **COMPONENTES**
-* [Wind & Rain Sensor](https://www.amazon.com/Weather-Meter-Kit-Anemometer-terminated/dp/B084DBXMPX?dchild=1&keywords=sparkfun+wind+and+rain+sensor&qid=1614277130&sr=8-3&linkCode=sl1&tag=opegreene-20&linkId=e9a2daa6282aa56d751c4b69fbfd81cf&language=en_US&ref_=as_li_ss_tl)
-  * Wind Speed ( Sparkfun Weather Meter )
-  * Wind Direction ( Sparkfun Weather Meter )
-  * Rain Gauge ( Sparkfun Weather Meter )
-* [RJ11 conector x2](https://es.aliexpress.com/item/32957716969.html?spm=a2g0s.9042311.0.0.27424c4d513tXw&aff_fcid=52b899ea0b6c4a678bc521281ab2bf25-1639645949792-07044-_99QkyW&tt=CPS_NORMAL&aff_fsk=_99QkyW&aff_platform=portals-tool&sk=_99QkyW&aff_trace_key=52b899ea0b6c4a678bc521281ab2bf25-1639645949792-07044-_99QkyW&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
-* [Cables macho/hembra arduino](https://www.amazon.com/DEPEPE-2-54mm-Headers-Arduino-Prototype/dp/B074HVBTZ4?dchild=1&keywords=female+header&qid=1614277638&sr=8-3&linkCode=sl1&tag=opegreene-20&linkId=75c0eb8c0478cfef148c03a78898a051&language=en_US&ref_=as_li_ss_tl)
-* [Jumper Cap  x1](https://www.amazon.com/ZYAMY-2-54mm-Standard-Circuit-Connection/dp/B077957RN7?dchild=1&keywords=jumper+pin&qid=1616432164&sr=8-1&linkCode=sl1&tag=opegreene-20&linkId=5086f72049eec52712f57d9ffbb27f1c&language=en_US&ref_=as_li_ss_tl)
-* [Panel Solar 5V / 1.2Watt (110x69 mm)](https://www.amazon.com/uxcell-Small-Module-Polysilicon-Charger/dp/B07JM399X1?dchild=1&keywords=1.25+watt+solar+panel&qid=1616076033&sr=8-13&linkCode=sl1&tag=opegreene-20&linkId=c9b43e5f37894f72fd0ddea9d781e194&language=en_US&ref_=as_li_ss_tl)
-* [Batería de 18650 ](https://es.aliexpress.com/item/1005001388830999.html?spm=a2g0o.productlist.0.0.740342b3KlfwgI&algo_pvid=eeccd76b-a0c9-4308-be87-2145b5a29524&algo_exp_id=eeccd76b-a0c9-4308-be87-2145b5a29524-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000015910666652%22%7D&aff_fcid=4f509cebbb4847d2a80a0569f167e655-1639646213008-01116-_ACssmU&tt=CPS_NORMAL&aff_fsk=_ACssmU&aff_platform=portals-tool&sk=_ACssmU&aff_trace_key=4f509cebbb4847d2a80a0569f167e655-1639646213008-01116-_ACssmU&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
-* [Soporte de batería 18650](https://www.amazon.com/abcGoodefg-1Slotx3-7V-Battery-Plastic-Storage/dp/B075N69BMN?crid=1M1A0HB6DLHJF&dchild=1&keywords=18650+battery+holder&qid=1614277877&sprefix=18650+battery+holde,aps,366&sr=8-5&linkCode=sl1&tag=opegreene-20&linkId=c922677798d4036b3bc49ae5ca12e4c4&language=en_US&ref_=as_li_ss_tl)
-* [Cables de arduino](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78?crid=2TGFZ04R0CTBC&dchild=1&keywords=jumper+wires+female+to+male&qid=1616433451&sprefix=jumper+wire,aps,426&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU1IwMjFYUUQzQTEwJmVuY3J5cHRlZElkPUEwNjY4NjU2RzRDWkE1QVFHMFdSJmVuY3J5cHRlZEFkSWQ9QTA5NDUzMjExRUtQVk9KOTU5MVg5JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=sl1&tag=opegreene-20&linkId=2b274fdd7e99e5950ab9fd82304d5d3c&language=en_US&ref_=as_li_ss_tl)
-* [Switch](https://www.amazon.com/Uxcell-a12013100ux0116-Position-Vertical-Switch/dp/B007QAJUUS?dchild=1&keywords=slide+switch&qid=1614278255&sr=8-4&linkCode=sl1&tag=opegreene-20&linkId=1693a2512245fea292e5e97a5a6073c2&language=en_US&ref_=as_li_ss_tl)
+> **KOMPONENTEAK**
+* [Arduino kable ar/eme](https://www.amazon.com/DEPEPE-2-54mm-Headers-Arduino-Prototype/dp/B074HVBTZ4?dchild=1&keywords=female+header&qid=1614277638&sr=8-3&linkCode=sl1&tag=opegreene-20&linkId=75c0eb8c0478cfef148c03a78898a051&language=en_US&ref_=as_li_ss_tl)
+* [Arduino konektoreak](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78?crid=2TGFZ04R0CTBC&dchild=1&keywords=jumper+wires+female+to+male&qid=1616433451&sprefix=jumper+wire,aps,426&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU1IwMjFYUUQzQTEwJmVuY3J5cHRlZElkPUEwNjY4NjU2RzRDWkE1QVFHMFdSJmVuY3J5cHRlZEFkSWQ9QTA5NDUzMjExRUtQVk9KOTU5MVg5JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=sl1&tag=opegreene-20&linkId=2b274fdd7e99e5950ab9fd82304d5d3c&language=en_US&ref_=as_li_ss_tl)
 
 ***
 
-> **HERRAMIENTAS**
-* [Estación de soldar](https://www.google.com/shopping/product/5042715519988754151?q=estacion+de+soldadura&prds=epd:17283412033935127216,eto:17283412033935127216_0,rsk:PC_3058408035792851722&sa=X&ved=0ahUKEwi769iqtIH2AhUGSfEDHTTRCMsQ9pwGCAU)
-* [Tenazas](https://www.google.com/shopping/product/13360539414276992579?q=tenazas&prds=epd:10786235037946669078,eto:10786235037946669078_0,rsk:PC_616138079748265835&sa=X&ved=0ahUKEwi3quvFtIH2AhU4SPEDHX9oBzAQ9pwGCAU)
-* [Cortante o Alicates](https://www.google.com/shopping/product/1?q=cortante&prds=epd:8859887341376829913,eto:8859887341376829913_0,pid:8859887341376829913&sa=X&ved=0ahUKEwjgp7jYtIH2AhWxRPEDHVwxBD8Q9pwGCAc)
-* [Pistola de calor](https://www.lidl.es/es/pistola-digital-de-aire-caliente-2000-w/p31928?channable=4068d169640033363436383953&mktc=shopping_shop&gclid=Cj0KCQiAu62QBhC7ARIsALXijXQWMDUuuRz8qikWoShtcUb2DY4KFPrZqDnHcYnNVfwMxjrXzqm2eM8aAkJkEALw_wcB)
-* [impresora 3D](https://www.banggood.com/es/Artillery-GeniusPro-and-Genius-3D-Printer-220+220+250mm-Print-Size-with-Ultra-Quiet-Stepper-Motor-TFT-Touch-Screen-Support-Filament-Runout-DetectionandPower-Failure-Function-p-1568218.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=ES&utm_content=minha&utm_campaign=minha-es-es-pc&currency=EUR&cur_warehouse=CN&createTmp=1&ID=480356311367&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=dcr&utm_campaign=dcr-pla-es-es-go-0806-pc&ad_id=537777119720&gclid=Cj0KCQiAu62QBhC7ARIsALXijXTLy_i-BRHot9BOb7e63OKWBGdWPPbUybBhSH1Mct2bpDRzxPrxccwaAldQEALw_wcB)
-* [Estaño](https://es.rs-online.com/web/p/estano-e-hilo-de-soldar/1047189?cm_mmc=ES-PLA-DS3A-_-google-_-CSS_ES_ES_Herramienta_El%C3%A9ctrica_y_Soldadura_Whoop+(2)-_-(ES:Whoop!)+Esta%C3%B1o+e+Hilo+de+Soldar-_-1047189&matchtype=&pla-305619873070&gclid=Cj0KCQiAu62QBhC7ARIsALXijXTX-TMjnpBkwoCMX4DuGWD5Kg1hb9i8SoM2XOcIjuM4Jp8HE7iA6VYaAvr2EALw_wcB&gclsrc=aw.ds) 
+> **HERRAMIENTAK**
+* [Soldatzeko makina](https://www.google.com/shopping/product/5042715519988754151?q=estacion+de+soldadura&prds=epd:17283412033935127216,eto:17283412033935127216_0,rsk:PC_3058408035792851722&sa=X&ved=0ahUKEwi769iqtIH2AhUGSfEDHTTRCMsQ9pwGCAU)
+* [Kortanteak edo alikateak](https://www.google.com/shopping/product/1?q=cortante&prds=epd:8859887341376829913,eto:8859887341376829913_0,pid:8859887341376829913&sa=X&ved=0ahUKEwjgp7jYtIH2AhWxRPEDHVwxBD8Q9pwGCAc)
+* [Estañua](https://es.rs-online.com/web/p/estano-e-hilo-de-soldar/1047189?cm_mmc=ES-PLA-DS3A-_-google-_-CSS_ES_ES_Herramienta_El%C3%A9ctrica_y_Soldadura_Whoop+(2)-_-(ES:Whoop!)+Esta%C3%B1o+e+Hilo+de+Soldar-_-1047189&matchtype=&pla-305619873070&gclid=Cj0KCQiAu62QBhC7ARIsALXijXTX-TMjnpBkwoCMX4DuGWD5Kg1hb9i8SoM2XOcIjuM4Jp8HE7iA6VYaAvr2EALw_wcB&gclsrc=aw.ds) 
 
 ***
 ## MONTAJE DE LA ESTACIÓN METEOROLÓGICA
