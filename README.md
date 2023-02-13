@@ -112,7 +112,7 @@ Ahots sintetizadore honetarako software libre bat erabili degu, Arduino deituta.
 
 >**ARDUINO**
 
-* [**Pagina Web**](https://www.arduino.cc/en/software)
+* [**Web Orria**](https://www.arduino.cc/en/software)
 
 Liburutegiak deskargatu ahal izateko hurrengo linkean sartu behar da eta gure ordenagailuaren arabera deskargatuko degu **Teensyduino installer**.
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/Teensyduino-installer.png)
