@@ -124,7 +124,7 @@ Para la parte superior de la estación pondremos la placa solar en la parte supe
 
 ***
 
-## PROGRAMA ARDUINO
+## ARDUINO PROGRAMA
 
 Para el programar de esta estación meteorológica hemos utilizado un programa de software libre llamado Arduino . Para que el  **`ESP32 Dev Kit V1`**  funcione correctamente vamos a tener que instalar varias librerías.
 
