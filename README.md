@@ -5,20 +5,15 @@
 ## Ahots sintetizagailu bat sortzeko jarraitu behar diren pausoak.
 Proiektu honetan ikasiko degu nola sortu ahots eta teklatuz modulatutako ahots sintetizagailu bat. Teensy 3.2 eta Teensy 4.0 hardware-a erabiliz lortuko dugu sintetizagailua martxan jartzea.
 
-La ventaja de tener una estación meteorológica es que no necesita  estar conectada a una fuente de corriente constante por lo que ahorraremos mucha energía y además puede establecerse en lugares remotos , otra ventaja que tiene es que podemos comprar estos componentes a un precio reducido con lo cual recortamos muchos gastos y hace que se muy asequible .
+Ahots sintetizagailu bat sortzearen ideia etorri zen geundenean pentsatzen lan egiteari buruz. Nola pertsona batzuek lan egiten dute soinuak sortzez eta sintetizadoreekin aldatzeaz. Nori ez inoiz etorri burura DJ modukoa izan nahi zuela? Proiektu honekin zure lehenengo pausuak eman ahal izango dituzu oso kostu gutxian eta errestasun askorekin.
 
 Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar dira:
 
 ***
 
-> **CHIPS**                     
+> **TXIPAK**                     
 * [INA217](https://www.amazon.es/Reland-Sun-INA217P-INA217-INA217AIP/dp/B09M3473CX/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EB6WGADDAC3R&keywords=ina217&qid=1676304989&sprefix=ina217%2Caps%2C91&sr=8-2) 
 * [NE5534P](https://www.amazon.es/HUABAN-Amplificador-operativo-NE5534-unidades/dp/B0BGKPV8YF/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AB7LONQZ8L7R&keywords=ne5534&qid=1676305036&sprefix=ne5534%2Caps%2C90&sr=8-1)
-* [BH1750](https://www.amazon.com/HiLetgo-GY-302-BH1750-Intensity-Illumination/dp/B00M0F29OS?dchild=1&keywords=bh1750&qid=1616433104&sr=8-2&linkCode=sl1&tag=opegreene-20&linkId=be4f1b2d58fde9fd54e054d229d9b78b&language=en_US&ref_=as_li_ss_tl)
-* [ESP32 Dev Kit V1 - 30 Pins](https://es.aliexpress.com/item/1005001757645011.html?spm=a2g0o.productlist.0.0.416151a1NUw6RO&algo_pvid=2d24cfce-1aa1-4b7b-86fc-22c4ee90f801&algo_exp_id=2d24cfce-1aa1-4b7b-86fc-22c4ee90f801-4&pdp_ext_f=%7B%22sku_id%22%3A%2212000017777037101%22%7D&aff_fcid=eb314f78fed945459619d5a477146561-1639645107023-02758-_AMwZBY&tt=CPS_NORMAL&aff_fsk=_AMwZBY&aff_platform=portals-tool&sk=_AMwZBY&aff_trace_key=eb314f78fed945459619d5a477146561-1639645107023-02758-_AMwZBY&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
-* [TP4056](https://es.aliexpress.com/item/1005001562314459.html?spm=a2g0o.productlist.0.0.86152f4a42r7EJ&algo_pvid=7204546f-dddb-490a-b085-c94f3ce809a7&algo_exp_id=7204546f-dddb-490a-b085-c94f3ce809a7-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016601477686%22%7D&aff_fcid=d7f1e4fed45f490a92a2ba37d64bc182-1639645323510-03922-_AKp5rg&tt=CPS_NORMAL&aff_fsk=_AKp5rg&aff_platform=portals-tool&sk=_AKp5rg&aff_trace_key=d7f1e4fed45f490a92a2ba37d64bc182-1639645323510-03922-_AKp5rg&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
-* [GY1145](https://www.amazon.com/Comimark-SI1145-Visible-Sensor-Breakout/dp/B07WVJDNGF?dchild=1&keywords=gy1145&qid=1616433052&sr=8-1&linkCode=sl1&tag=opegreene-20&linkId=72763b55e8145cef9f5c7e9d2336e2f2&language=en_US&ref_=as_li_ss_tl)
-* [DT1042-04SO](https://www.amazon.com/DT1042-04SO-7-Suppressor-Uni-Dir-Automotive-SOT-26/dp/B07NLKFPK7?dchild=1&keywords=DT1042-04SO&qid=1616075302&sr=8-1&linkCode=sl1&tag=opegreene-20&linkId=c03b68dee3ea2cbeb39aaa523880d33d&language=en_US&ref_=as_li_ss_tl)
 
 ***
 
@@ -130,8 +125,8 @@ Behin gure bertsioa deskargatuta daukagula, `Teensyduino Installerrak` esaten di
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/teensyduino_installer_1.png)
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/teensyduino_installer_2.png)
 
-Después de esto faltaría añadir un gestor de tarjetas para esto nos iremos a **`archivo`** y dentro seleccionaremos la opción de **`preferencias`** 
- , también si se prefiere se puede usar el comando **`Ctrl+Coma`**  . Una vez echo esto donde pone gestor de tarjetas añadiremos el enlace **URL** y le daremos al **`ok`** .
+Ondoren, txartelen kudeatzaile bat gehitzea falta da. Horretarako, **`archivo`** atalean sartu gera eta barruan **`preferencias`** sakatuko degu 
+ , nahi bada **`Ctrl+Coma`** komandoa erabili ahal da errazago. Behin hori eginda **`gestor de tarjetas`** lekuan gure **`URL`** jarriko degu eta **`ok`** sakatu.
 
 > **TXARTELA KUDEAKETA**
 * [**TEENSYDUINO**](https://www.pjrc.com/teensy/package_teensy_index.json)
