@@ -2,8 +2,8 @@
 
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/portada.png?raw=true)
 
-## Pasos a seguir para crear una estación meteorológica
-Para este proyecto  vamos a aprender cómo hacer una estación meteorológica inalámbrica alimentada mediante  energía solar , con  el uso de un módulo Wifi ESP32 y algunos sensores  lograremos tener información en tiempo real . 
+## Ahots sintetizagailu bat sortzeko jarraitu behar diren pausoak.
+Proiektu honetan ikasiko degu nola sortu ahots eta teklatuz modulatutako ahots sintetizagailu bat. Teensy 3.2 eta Teensy 4.0 hardware-a erabiliz lortuko dugu sintetizagailua martxan jartzea.
 
 La ventaja de tener una estación meteorológica es que no necesita  estar conectada a una fuente de corriente constante por lo que ahorraremos mucha energía y además puede establecerse en lugares remotos , otra ventaja que tiene es que podemos comprar estos componentes a un precio reducido con lo cual recortamos muchos gastos y hace que se muy asequible .
 
@@ -12,8 +12,8 @@ Para hacer posible esta estación meteorológica vamos a necesitar los siguiente
 ***
 
 > **CHIPS**                     
-* [BME280](https://www.amazon.com/Dmyond-Atmospheric-Pressure-Temperature-Humidity/dp/B07XKSBQ9B?dchild=1&keywords=bme280&qid=1614277072&sr=8-3&linkCode=sl1&tag=opegreene-20&linkId=a7bc2117d73d0f7eb2ab3e97b1371d81&language=en_US&ref_=as_li_ss_tl) 
-* [DS18B20](https://www.amazon.com/DS18B20-Temperature-Waterproof-Digital-Thermal/dp/B085WBVZHN?dchild=1&keywords=ds18b20&qid=1616433136&sr=8-6&linkCode=sl1&tag=opegreene-20&linkId=2f1de982125dca6b81fe4edc64fe6d13&language=en_US&ref_=as_li_ss_tl)
+* [INA217](https://www.amazon.es/Reland-Sun-INA217P-INA217-INA217AIP/dp/B09M3473CX/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EB6WGADDAC3R&keywords=ina217&qid=1676304989&sprefix=ina217%2Caps%2C91&sr=8-2) 
+* [NE5534P](https://www.amazon.es/HUABAN-Amplificador-operativo-NE5534-unidades/dp/B0BGKPV8YF/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AB7LONQZ8L7R&keywords=ne5534&qid=1676305036&sprefix=ne5534%2Caps%2C90&sr=8-1)
 * [BH1750](https://www.amazon.com/HiLetgo-GY-302-BH1750-Intensity-Illumination/dp/B00M0F29OS?dchild=1&keywords=bh1750&qid=1616433104&sr=8-2&linkCode=sl1&tag=opegreene-20&linkId=be4f1b2d58fde9fd54e054d229d9b78b&language=en_US&ref_=as_li_ss_tl)
 * [ESP32 Dev Kit V1 - 30 Pins](https://es.aliexpress.com/item/1005001757645011.html?spm=a2g0o.productlist.0.0.416151a1NUw6RO&algo_pvid=2d24cfce-1aa1-4b7b-86fc-22c4ee90f801&algo_exp_id=2d24cfce-1aa1-4b7b-86fc-22c4ee90f801-4&pdp_ext_f=%7B%22sku_id%22%3A%2212000017777037101%22%7D&aff_fcid=eb314f78fed945459619d5a477146561-1639645107023-02758-_AMwZBY&tt=CPS_NORMAL&aff_fsk=_AMwZBY&aff_platform=portals-tool&sk=_AMwZBY&aff_trace_key=eb314f78fed945459619d5a477146561-1639645107023-02758-_AMwZBY&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
 * [TP4056](https://es.aliexpress.com/item/1005001562314459.html?spm=a2g0o.productlist.0.0.86152f4a42r7EJ&algo_pvid=7204546f-dddb-490a-b085-c94f3ce809a7&algo_exp_id=7204546f-dddb-490a-b085-c94f3ce809a7-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016601477686%22%7D&aff_fcid=d7f1e4fed45f490a92a2ba37d64bc182-1639645323510-03922-_AKp5rg&tt=CPS_NORMAL&aff_fsk=_AKp5rg&aff_platform=portals-tool&sk=_AKp5rg&aff_trace_key=d7f1e4fed45f490a92a2ba37d64bc182-1639645323510-03922-_AKp5rg&terminal_id=415eac4692da4a489d70c72e94ebc887&afSmartRedirect=n)
@@ -22,24 +22,31 @@ Para hacer posible esta estación meteorológica vamos a necesitar los siguiente
 
 ***
 
-> **RESISTENCIAS**
+> **ERRESISTENTZIAK**
+* **100 KΩ**  x3
+* **2K2 Ω**  x2
 * **1 KΩ**  x2
-* **4,7 KΩ**  x3
-* **10 KΩ**  x1
-* **27 KΩ**  x1
-* **100 KΩ**  x1
+* **100 Ω**  x1
+* **22 KΩ**  x1
+* **10 KΩ**  x2
+* **36 KΩ**  x2
 
 ***
 
-> **TRANSISTORES**
-* [MCP1700-3.3V](https://www.amazon.com/10PCS-MCP1702-3302E-3-3V-92-3-MCP1702/dp/B01IL71VPG?dchild=1&keywords=mcp1700-3302&qid=1614277291&sr=8-4&linkCode=sl1&tag=opegreene-20&linkId=89c88726b69e06bf794512e70581719d&language=en_US&ref_=as_li_ss_tl)
+> **KONDENTSADOREAK**
+
+* **10 uF**  x2
+* **1 nF**  x1
+* **10 nF**  x2
+* **47 nF**  x1
 
 ***
 
-> **CONDENSADORES**
+> **POTENTZIOAMETROAK**
 
 * **0.1 uF**  x2
 * **1 uF**  x2
+* **100 uF**  x1
 * **100 uF**  x1
 
 ***
