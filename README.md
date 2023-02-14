@@ -140,7 +140,7 @@ Ondoren, txartelen kudeatzaile bat gehitzea falta da. Horretarako, **`archivo`**
 
 Programa deskargatu eta gero komprobatzen degu **`herramientas`** atalean, gure plaka **`Teensy 4.0`** dela.
 ***
-![](https://www.prometec.net/wp-content/uploads/2018/02/arduino-ide.png)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/plaka-aukeratu.png)
 
 Luego de hacer este paso dentro del código de Arduino insertaremos tanto nuestro **Wifi** nombre y contraseña y nuestro **`Write API key`** que se explicara como sacar ese codigo en el apartado de la conexión Thingspeak . 
   
