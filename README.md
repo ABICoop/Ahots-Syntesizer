@@ -24,6 +24,7 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 * **100 Ω**  x1
 * **22 KΩ**  x1
 * **10 KΩ**  x2
+* **220 Ω**  x2
 * **36 KΩ**  x2
 
 ***
