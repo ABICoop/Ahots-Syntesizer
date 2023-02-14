@@ -60,7 +60,7 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 
 ***
 ## AHOTS SINTETIZAGAILUAREN MUNTAIA
-Para la creación de esta estación hemos diseñado nuestra **PCB** en la cual habrá que soldar todos los componentes mencionados arriba. Sintentizagailu hau sortu ahal izateko, **PCB** bat diseinatu degu eta goian aipatu diren komponente guztiak soldatu beharko dira.
+Sintentizagailu hau sortu ahal izateko, **PCB** bat diseinatu degu eta goian aipatu diren komponente guztiak soldatu beharko dira.
 
 bai `Proteus 8` bai `Arduino`, fitxategiak deskargatzeko egongo dira. Muntaketa eta diseinurako, irudi honetan oinarritu gara, konexioak nola antolatuta dauden ikus baitaiteke.
 
