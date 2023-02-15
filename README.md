@@ -19,10 +19,10 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 
 > **ERRESISTENTZIAK**
 * **100 KΩ**  x3
+* **220 Ω**  x2
 * **2K2 Ω**  x2
 * **1 KΩ**  x2
 * **100 Ω**  x1
-* **22 KΩ**  x1
 * **10 KΩ**  x2
 * **220 Ω**  x2
 * **36 KΩ**  x2
@@ -38,18 +38,19 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 
 ***
 
-> **POTENTZIOAMETROAK**
+> **POTENTZIOAMETROAK ETA DESLIZAGAILUAK**
 
-* **10 KΩ**  x2
-* **10 KΩ**  x2
-* **10 KΩ**  x2
-* **10 KΩ**  x2
+* **10 KΩ**  x8 (Potentziometro)
+* **10 KΩ**  x4 (Deslizagailu)
+* **22 KΩ**  x1 (Potentziometro)
+* **5 KΩ**  x1 (Potentziometro)
 
 ***
 
 > **KOMPONENTEAK**
 * [Arduino kable ar/eme](https://www.amazon.com/DEPEPE-2-54mm-Headers-Arduino-Prototype/dp/B074HVBTZ4?dchild=1&keywords=female+header&qid=1614277638&sr=8-3&linkCode=sl1&tag=opegreene-20&linkId=75c0eb8c0478cfef148c03a78898a051&language=en_US&ref_=as_li_ss_tl)
 * [Arduino konektoreak](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78?crid=2TGFZ04R0CTBC&dchild=1&keywords=jumper+wires+female+to+male&qid=1616433451&sprefix=jumper+wire,aps,426&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU1IwMjFYUUQzQTEwJmVuY3J5cHRlZElkPUEwNjY4NjU2RzRDWkE1QVFHMFdSJmVuY3J5cHRlZEFkSWQ9QTA5NDUzMjExRUtQVk9KOTU5MVg5JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=sl1&tag=opegreene-20&linkId=2b274fdd7e99e5950ab9fd82304d5d3c&language=en_US&ref_=as_li_ss_tl)
+* [Switch](https://www.amazon.es/Aussel-posiciones-interruptor-palanca-Arduino/dp/B077D9FRGL/ref=sr_1_5?keywords=switch+arduino&qid=1676486772&sprefix=switch+ard%2Caps%2C96&sr=8-5)
 
 ***
 
@@ -57,6 +58,7 @@ Martxan jarri ahal izateko gure ahots sintetizagailua, hurrengo material behar d
 * [Soldatzeko makina](https://www.google.com/shopping/product/5042715519988754151?q=estacion+de+soldadura&prds=epd:17283412033935127216,eto:17283412033935127216_0,rsk:PC_3058408035792851722&sa=X&ved=0ahUKEwi769iqtIH2AhUGSfEDHTTRCMsQ9pwGCAU)
 * [Kortanteak edo alikateak](https://www.google.com/shopping/product/1?q=cortante&prds=epd:8859887341376829913,eto:8859887341376829913_0,pid:8859887341376829913&sa=X&ved=0ahUKEwjgp7jYtIH2AhWxRPEDHVwxBD8Q9pwGCAc)
 * [Estañua](https://es.rs-online.com/web/p/estano-e-hilo-de-soldar/1047189?cm_mmc=ES-PLA-DS3A-_-google-_-CSS_ES_ES_Herramienta_El%C3%A9ctrica_y_Soldadura_Whoop+(2)-_-(ES:Whoop!)+Esta%C3%B1o+e+Hilo+de+Soldar-_-1047189&matchtype=&pla-305619873070&gclid=Cj0KCQiAu62QBhC7ARIsALXijXTX-TMjnpBkwoCMX4DuGWD5Kg1hb9i8SoM2XOcIjuM4Jp8HE7iA6VYaAvr2EALw_wcB&gclsrc=aw.ds) 
+* [Polimetroa](https://www.amazon.es/KAIWEETS-Mult%C3%ADmetro-Continuidad-Resistencia-Miniestuche/dp/B08CX9W7G3/ref=sr_1_1_sspa?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=265JQZ45KZGYR&keywords=polimetro&qid=1676486961&sprefix=polimetro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 
 ***
 ## AHOTS SINTETIZAGAILUAREN MUNTAIA
