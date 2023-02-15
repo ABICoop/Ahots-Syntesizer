@@ -139,10 +139,16 @@ Programa deskargatu eta gero komprobatzen degu **`herramientas`** atalean, gure 
 ***
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/plaka-aukeratu.png)
 
-Luego de hacer este paso dentro del código de Arduino insertaremos tanto nuestro **Wifi** nombre y contraseña y nuestro **`Write API key`** que se explicara como sacar ese codigo en el apartado de la conexión Thingspeak . 
-  
-![foto](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/arduino%20captura.png?raw=true)
+Gure proiektuak audioarekin zerikusia daukanez Teensy Audio Design Tool-a erabili behar izan dugu. Teensy 4.1 gainean Audio Shield bat gehitu diogunez behar-beharrezkoa den modulo bat gehitu behar diogu gure programari beti, modulo hau Sgtl5000 da non Audio Shield-a kontrolatzen duen. 
 
+Bestalde honez gain beste modulo asko erabil ditzazkegu, honekin batera modulo bakoitzaren gainean klick egiten dugunero web orriaren eskubi aldean zutabe bat irekiko zaigu aukeratutako moduluaren funtzio eta adibideekin, hau oso erabilgarria da gero proiektuan ze parametro aldatu behar ditugun jakiteko. 
+
+![](https://media.discordapp.net/attachments/1074728580958924951/1075486023347339334/image.png?width=960&height=484)
+
+Ondoren ikus dezakezuen argazkia gure proiektuko Audio Design Tool-a da.
+
+![](https://media.discordapp.net/attachments/1074728580958924951/1075482773105684630/image.png?width=960&height=485)
+![](https://media.discordapp.net/attachments/1074728580958924951/1075483044481339473/image.png?width=960&height=481)
 
 Textu honen bitartez gure proiektuaren programak nola funtzionatzen duen azalduko dizuegu. Eman genietuen lehen pausuak VCO bat gehitzea izan zen, **VCO = "Voltage Controlled Oscilator"** Sistesi kentzaile bidez sorturikako soinu bat da non guk aukeratu dezakegun uhin mota. `VCO-ren Frekuentzia knob_A4 potentziometro` bitartez kontrolatzen dugu. 
 
