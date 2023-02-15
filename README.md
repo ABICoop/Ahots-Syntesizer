@@ -118,6 +118,8 @@ Liburutegiak deskargatu ahal izateko hurrengo linkean sartu behar da eta gure or
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/Teensyduino-installer.png)
 
 >**LIBRERIAK**
+
+* [**USBHost_t36.h**](https://github.com/PaulStoffregen/USBHost_t36)
 * [**TEENSYDUINO**](https://www.pjrc.com/teensy/td_download.html)
 
 Behin gure bertsioa deskargatuta daukagula, `Teensyduino Installerrak` esaten digun pausuak jarraitu behar dira. Behin pausuak bukatu ditugula horrelako pantaila bat agertu beharko luke.
