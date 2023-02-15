@@ -143,39 +143,14 @@ Luego de hacer este paso dentro del código de Arduino insertaremos tanto nuestr
   
 ![foto](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/arduino%20captura.png?raw=true)
 
-***
 
-## CONEXION CON THINGSPEAK
+Textu honen bitartez gure proiektuaren programak nola funtzionatzen duen azalduko dizuegu. Eman genietuen lehen pausuak VCO bat gehitzea izan zen, **VCO = "Voltage Controlled Oscilator"** Sistesi kentzaile bidez sorturikako soinu bat da non guk aukeratu dezakegun uhin mota. **VCO-ren Frekuentzia knob_A4 potentziometro** bitartez kontrolatzen dugu. 
 
-Para este paso nos crearemos nuestra cuenta en thingspeak . Después de crear la cuenta nos iremos a **`channel`** y dentro seleccionaremos **`Mychannel`** , aquí crearemos nuestros fields en los que pondremos las caracteristicas de cada sensor del 1 al 8 como se muestra debajo.
+Hau egin ondoren LFO zatiarekin sartu ginen **LFO= "Low Frequency Oscilator"** Seinale sortzaile moduan erabiltzenda eta aurrekoa modulatzeko balio du, honen `Frekuentzi eta Anplitudearen kontrolak knob_A1 eta knob_A2 potentziometroekin` kontrola dezakegu. Behin VCO LFO-kin batera modulatzean 12 noten kontrola edukitzea pentsatu genuen eta hau egiteko switch batez lagundu ginen, hau da, switch-a alde batean dagoenean lehen esanda bezala funtzonatzen du, aldiz beste aldera eramatean **knob_A5 bitartez VCO-ren frekuentzia** 12 nota desberdinetan entzun dezakegu potentziometroaren 1023/12 eginez. 
 
->**THINGSPEAK**
-* [**Pagina Web**](https://thingspeak.com/) 
+VCF-ren txanda zen **VCF= "Voltage Controlled Filter"** sarreran lortzen dugun soinuaren tentsioz kontrolaturiko `filtroa honetarako knob_A0` potentziometroa erabili genuen, non `knob_A2 potentziometroaren arabera filtratu genezaken`. 
 
-![](https://inwfile.com/s-fu/mhzeyl.jpg)
-
-En la que tendremos que poner los siguientes datos :
-
-**1. Temperature**
- 
-**2. Humidity**
-
-**3. Pressure**
-   
-**4. UV Index** 
-
-**5. Wind Speed**
-
-**6. Wind Direction**
-
-**7. Rain Fall** 
-
-**8. Battery Voltage**
-
-Una vez echo esto iremos arriba al apartado **`API KeY`** y copiaremos el **`Write API key`** para luego ponerlo en el programa de Arduino y así hacer la comunicación.
-
-![](https://github.com/V1c7hor/Estacion-Meteorologica/blob/main/estacion%20mm.JPG?raw=true)
-
-Con esto ya estaría funcional nuestra estación meteorológica.
-
+**Midi teklatuari dagokionez "USBHost_t36.h"** libreria erabili genuen USBmidi bitartez konektatzen zelako gure teklatua. Hemen emandako lehen pausua notaren balioa (note) frekuentzi bihurtzea zen, horretarako   
+"float Freq = 440.0 * powf(2.0, (float)(note - 69) * 0.08333333);
+  globalFreq = Freq; " erabili genuen ondoren bariable global batera pasatzeko. Teklatuarekin egin beharreko hurrengo pausoa honen bolumenaren kontrola zen envelope izeneko filtro batez **ADSR= " Attack Decay Sustain Release"**. Teklatuaren bi parametroak kontuan izanik,** "myNoteOn" eta "myNoteOff"** Attack Decay nota hastean sartzea izan zen eta aldiz Sustain Release nota bukaeran musikalki zentzu hori duelako, lehen bezala parametro bakoitza potentziometro batekin kontrolatuz.
 ***
