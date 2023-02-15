@@ -71,6 +71,7 @@ bai `Proteus 8` bai `Arduino`, fitxategiak deskargatzeko egongo dira. Muntaketa 
 * [**AHOTS SINTETIZAGAILUA PROGRAMA**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/Arduino-code)
 
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/eskema-orokorra.jpg)
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/mikro-PCB.PNG)
 
 Komponenteen kokaketa **PCB** diseinuan.
 
