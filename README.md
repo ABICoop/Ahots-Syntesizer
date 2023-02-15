@@ -80,10 +80,13 @@ Komponenteen kokaketa mikroaren **PCB** diseinuan.
 
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/mikro-PCB.PNG)
 ***
-Zirkuitua estaltzeko **8 mm** inguruko metakrilatoa erabili dugu. Karkasaren diseinua **Adobe Ilustrator** aplikazioan egin zen, eta
-mozketak Tabakaleran zegoen laser ebakitzaile bati esker egin ziren.
+Zirkuitua estaltzeko **8 mm** inguruko metakrilatoa erabili dugu. Karkasaren diseinua **Adobe Ilustrator** aplikazioan egin zen eta hurrengo programa/neurriak atera ziren:
 
 * [**Erabilitako Adobe Ilustrator programa**](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/METAKRILATO.ai)
+
+Egindako Adobe Ilustratorraren argazkia:
+
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/Adobe-karkasa.PNG)
 
 >**METAKRILATOREAREN NEURRIAK**
   * **9 x 18 cm** x2
