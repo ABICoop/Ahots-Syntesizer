@@ -172,4 +172,11 @@ Mikrofonoarentzat erabili degun Audi Design Tool-a:
 
 ![](https://media.discordapp.net/attachments/1074728580958924951/1075483044481339473/image.png?width=960&height=481)
 
+Textu honekin mikrofonoarentzat erabili genuen programaren azalpena eman nahi da. Mikrofonoaren `sarrera jartzen degu i2s2` moduluarekin. **40 ms-ko erantzuna** ematen zaio pikoen irakurketari. **2 float** erabili ditugu detekzio lortzeko eta gure `Monitore Serien` ikusi ahal izateko.
+
+Monitore serialean pikoen argazkia.
+
+![](https://media.discordapp.net/attachments/1074728580958924951/1075495335578849290/image.png?width=960&height=436)
+
+Behin pikoak ikusi ahal ditugula irteera batera jartzen degu entzun ahal izateko. Programa `guztiz bukatzen denean 0-crossingak detektatzea` izango zen ideia. Modu berean `frekuentzia detektatu` beharko luke eta programa orokorrarekin kombinatuz, hainbat filtro edo modulazio aplikatu ahal ziren ahotsari.
 ***
