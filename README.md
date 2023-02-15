@@ -158,5 +158,6 @@ VCF-ren txanda zen **VCF= "Voltage Controlled Filter"** sarreran lortzen dugun s
 
 **Midi teklatuari dagokionez "USBHost_t36.h"** libreria erabili genuen USBmidi bitartez konektatzen zelako gure teklatua. Hemen emandako lehen pausua notaren balioa (note) frekuentzi bihurtzea zen, horretarako   
 **"float Freq = 440.0 * powf(2.0, (float)(note - 69) * 0.08333333);
-globalFreq = Freq; "** erabili genuen ondoren bariable global batera pasatzeko. Teklatuarekin egin beharreko hurrengo pausoa honen bolumenaren kontrola zen envelope izeneko filtro batez **ADSR= " Attack Decay Sustain Release"**. Teklatuaren bi parametroak kontuan izanik,** "myNoteOn" eta "myNoteOff"** Attack Decay nota hastean sartzea izan zen eta aldiz Sustain Release nota bukaeran musikalki zentzu hori duelako, lehen bezala parametro bakoitza potentziometro batekin kontrolatuz.
+globalFreq = Freq;** 
+erabili genuen ondoren bariable global batera pasatzeko. Teklatuarekin egin beharreko hurrengo pausoa honen bolumenaren kontrola zen envelope izeneko filtro batez **ADSR= " Attack Decay Sustain Release"**. Teklatuaren bi parametroak kontuan izanik,** "myNoteOn" eta "myNoteOff"** Attack Decay nota hastean sartzea izan zen eta aldiz Sustain Release nota bukaeran musikalki zentzu hori duelako, lehen bezala parametro bakoitza potentziometro batekin kontrolatuz.
 ***
