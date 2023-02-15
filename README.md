@@ -83,7 +83,7 @@ Komponenteen kokaketa mikroaren **PCB** diseinuan.
 Zirkuitua estaltzeko **8 mm** inguruko metakrilatoa erabili dugu. Karkasaren diseinua **Adobe Ilustrator** aplikazioan egin zen, eta
 mozketak Tabakaleran zegoen laser ebakitzaile bati esker egin ziren.
 
-* [**Erabilitako Adobe Ilustrator programa**](https://www.thingiverse.com/thing:4805867/files](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/METAKRILATO.ai)
+* [**Erabilitako Adobe Ilustrator programa**](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/METAKRILATO.ai)
 
 >**METAKRILATOREAREN NEURRIAK**
   * **9 x 18 cm** x2
