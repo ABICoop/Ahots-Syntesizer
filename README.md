@@ -71,23 +71,24 @@ bai `Proteus 8` bai `Arduino`, fitxategiak deskargatzeko egongo dira. Muntaketa 
 * [**AHOTS SINTETIZAGAILUA PROGRAMA**](https://github.com/ABICoop/Ahots-Syntesizer/tree/main/Arduino-code)
 
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/images/eskema-orokorra.jpg)
-![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/mikro-PCB.PNG)
 
-Komponenteen kokaketa **PCB** diseinuan.
+Komponenteen kokaketa **PCB** orokorraren diseinuan.
 
 ![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/pcb-design.PNG?raw=true)
-***
-Para el recubrimiento de la PCB hemos utilizado una impresora 3D para este proceso, en nuestro caso es la **Artillery Genius** y hemos utilizado estos esquemas de thingiverse para ello:
 
->**THINGIVERSE**
-* [**Piezas 3D**](https://www.thingiverse.com/thing:4805867/files)
-  * **PCB_Mount_Frame** x1
-  * **Bottom_Mount** x1
-  * **M6_Rod_x_4** x4
-  * **Top_Cover__for_Solar_Panel_Mount** x1
-  * **Middle_Rings_x_12** x12
-  * **Bottom_Plate** x1
-  * **Screen_Top_Cover** x1
+Komponenteen kokaketa mikroaren **PCB** diseinuan.
+
+![](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/PCB-design/mikro-PCB.PNG)
+***
+Zirkuitua estaltzeko **8 mm** inguruko metakrilatoa erabili dugu. Karkasaren diseinua **Adobe Ilustrator** aplikazioan egin zen, eta
+mozketak Tabakaleran zegoen laser ebakitzaile bati esker egin ziren.
+
+* [**Erabilitako Adobe Ilustrator programa**](https://www.thingiverse.com/thing:4805867/files](https://github.com/ABICoop/Ahots-Syntesizer/blob/main/METAKRILATO.ai)
+
+>**METAKRILATOREAREN NEURRIAK**
+  * **9 x 18 cm** x2
+  * **8 x 27 cm** x2
+  * **27 x 18 cm** x2
 
 En nuestro caso el archivo de thingiverse es **.STL** por lo cual no es compatible con nuestra impresora 3D para ello hemos descargado un software libre llamado **Ultimaker Cura** para hacer que este proceso , este programa lo que hace es cambiar el archivo de **.STL** a .**gcode** el cual si es compatible para nuestra impresora. Descargar la versión  mas conveniente para vuestro ordenador ya sea **Windows** , **linux** o **Mac**. 
 
