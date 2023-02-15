@@ -93,23 +93,11 @@ Egindako Adobe Ilustratorraren argazkia:
   * **8 x 27 cm** x2
   * **27 x 18 cm** x2
 
-En nuestro caso el archivo de thingiverse es **.STL** por lo cual no es compatible con nuestra impresora 3D para ello hemos descargado un software libre llamado **Ultimaker Cura** para hacer que este proceso , este programa lo que hace es cambiar el archivo de **.STL** a .**gcode** el cual si es compatible para nuestra impresora. Descargar la versión  mas conveniente para vuestro ordenador ya sea **Windows** , **linux** o **Mac**. 
+Gure kasuan, Adobe Ilustratorrek ematen zigun artxiboa .**AI**, bateragarria zen mozteko erabiltzen zen makinarekin. Ebaketak egiteko, laser mozgailu bat erabili genuen, Tabakalerako kultur zentroak eskaini ziguna.
 
-> **ULTIMAKER CURA**
-* [**Pagina Web**](https://ultimaker.com/es/software/ultimaker-cura)
+Tabakaleran erabilitako makinaren argazkia:
 
-Una vez descargado el programa abriremos el archivo **.STL** y en la parte de abajo a la derecha donde pone **`slice`** le damos y nos pondrá el nuevo archivo **gcode** además de la duración que tardaremos en imprimir la pieza . Después de esto cogeremos un **USB** y pondremos en la impresora .
-Nos saldrá un menú como este en nuestra impresora al encenderla ,le daremos a **`Print`** y elegiremos el archivo que queramos imprimir.
-
-![](https://raw.githubusercontent.com/wgcv/RAWR-TFT-Firmware-Artillery3D/docs/img/readme-statusscreen2.jpg)
-
-Una vez impresas todas  las piezas las montaremos hasta tener este resultado:
-Para la parte superior de la estación pondremos la placa solar en la parte superior y la pegaremos con silicona , también pegaremos en el la parte superior el chip **`GY1145`** .
-
-![](https://content.instructables.com/ORIG/F69/A4DQ/KNG1C24N/F69A4DQKNG1C24N.jpg?auto=webp&frame=1&width=300&height=370&fit=bounds&md=352c8ed63f35b84d831084b5c881088b)
-![](https://content.instructables.com/ORIG/FSM/EF5L/KMJ66N80/FSMEF5LKMJ66N80.jpg?auto=webp&frame=1&width=364&height=400&fit=bounds&md=67eb137b64ccd5b2920f499085a050e6)
-![](https://content.instructables.com/ORIG/FWQ/CMIU/KMJ66M4D/FWQCMIUKMJ66M4D.jpg?auto=webp&frame=1&width=350&height=350&fit=bounds&md=a5bdcd12eaaab64c00c07865274fc026)
-
+![](https://media.discordapp.net/attachments/1074728580958924951/1075479417121415339/laser-makina.png?width=946&height=640)
 ***
 
 ## ARDUINO PROGRAMA
