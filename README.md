@@ -98,6 +98,10 @@ Gure kasuan, Adobe Ilustratorrek ematen zigun artxiboa .**AI**, bateragarria zen
 Tabakaleran erabilitako makinaren argazkia:
 
 ![](https://media.discordapp.net/attachments/1074728580958924951/1075479417121415339/laser-makina.png?width=946&height=640)
+
+Hau ez da gure prototipoa baina etorkizunean guk egindakoaren argazkia jarriko dugu.
+
+![](https://media.discordapp.net/attachments/1074728580958924951/1075481188766056478/metakrilatoa.jpg)
 ***
 
 ## ARDUINO PROGRAMA
