@@ -150,10 +150,11 @@ Bestalde honez gain beste modulo asko erabil ditzazkegu, honekin batera modulo b
 
 ![](https://media.discordapp.net/attachments/1074728580958924951/1075486023347339334/image.png?width=960&height=484)
 
+***
+> **PROGRAMA OROKORRA**
 Ondoren ikus dezakezuen argazkia gure proiektuko Audio Design Tool-a da.
 
 ![](https://media.discordapp.net/attachments/1074728580958924951/1075482773105684630/image.png?width=960&height=485)
-![](https://media.discordapp.net/attachments/1074728580958924951/1075483044481339473/image.png?width=960&height=481)
 
 Textu honen bitartez gure proiektuaren programak nola funtzionatzen duen azalduko dizuegu. Eman genietuen lehen pausuak VCO bat gehitzea izan zen, **VCO = "Voltage Controlled Oscilator"** Sistesi kentzaile bidez sorturikako soinu bat da non guk aukeratu dezakegun uhin mota. `VCO-ren Frekuentzia knob_A4 potentziometro` bitartez kontrolatzen dugu. 
 
@@ -165,4 +166,10 @@ VCF-ren txanda zen **VCF= "Voltage Controlled Filter"** sarreran lortzen dugun s
 **"float Freq = 440.0 * powf(2.0, (float)(note - 69) * 0.08333333);
 globalFreq = Freq;** 
 erabili genuen ondoren bariable global batera pasatzeko. Teklatuarekin egin beharreko hurrengo pausoa honen bolumenaren kontrola zen envelope izeneko filtro batez **ADSR= " Attack Decay Sustain Release"**. Teklatuaren bi parametroak kontuan izanik, **"myNoteOn" eta "myNoteOff"** Attack Decay nota hastean sartzea izan zen eta aldiz Sustain Release nota bukaeran musikalki zentzu hori duelako, lehen bezala parametro bakoitza potentziometro batekin kontrolatuz.
+***
+> **MIKROFONOAREN PROGRAMA**
+Mikrofonoarentzat erabili degun Audi Design Tool-a:
+
+![](https://media.discordapp.net/attachments/1074728580958924951/1075483044481339473/image.png?width=960&height=481)
+
 ***
