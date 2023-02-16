@@ -52,16 +52,7 @@ float globalFreq = 0;
 int switch_pin  = 2;
 float filter = 0;
 float fc = 0;
-float globalknob_A10 = 0;
-float globalknob_A11 = 0;
-float globalknob_A12 = 0;
-float globalknob_A13 = 0;
 
-
-float knob_A10 = (float)analogRead(A10) / 1023.0;
-float knob_A11 = (float)analogRead(A11) / 1023.0;
-float knob_A12 = (float)analogRead(A12) / 1023.0;
-float knob_A13 = (float)analogRead(A13) / 1023.0;
 
 
 extern const int16_t myWaveform[256];  // defined in myWaveform.ino
